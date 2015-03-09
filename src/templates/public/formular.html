@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+	<h3 class="text-muted">Přídávání záznamu o kartách do databáze</h3>
+      </div>
+      <hr/>
+
+      <form class="form-horizontal" action="" method="post">
+	<div class="form-group">
+	  <label for="name" class="col-lg-2 control-label">Číslo karty</label>
+	  <div class="col-lg-2">
+	    <input type="text" class="form-control" name="cislo_karty" >
+	  </div>
+	</div>
+	<div class="form-group">
+	  <label for="datum" class="col-lg-2 control-label">Datum přístupu</label>
+	  <div class="col-lg-2">
+	    <input type="text" class="form-control" name="datum" >
+	  </div>
+	</div>
+          <input type="submit" name="submit" value="Odeslat"/>
+      </form>
+    </div>
+  </body>
+</html>
